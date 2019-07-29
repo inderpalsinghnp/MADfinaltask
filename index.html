@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inder Pal Singh</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!--Link Icons-->
+    <link rel="stylesheet" href="css/iconmoon.css">
+    <!--Link Common Css-->
+    <link rel="stylesheet" href="css/base.css">
+    <!--Link Header and Footers-->
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <script src="js/headerfooter.js"></script>
+
+    <!--Linking Page Specific CSS-->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <script>
+        headerfunc();
+    </script>
+
+    <main>
+        <section>
+            <div class="container">
+                <div>
+                    <div>
+                        <img src="images/banner-img.png">
+                    </div>
+                    <div>
+                        <p class="font-48 gotham-light color-lightgrey">
+                            <span>An online survey on</span>
+                            <span class="color-green gotham-bold">food habits</span>
+                            <span>oof Indians by</span>
+                            <span class="gotham-book color-blackshade">Centre for Science and Environment</span>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <p class="font-21 gotham-light color-lightgrey">
+                        Food, health and environment are strongly connected. What we eat, how we eat and the way it is
+                        produced affects our health and environment. But do we really know?
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-green">
+            <img src="images/food-1.png"/>
+            <div class="container">
+                <div class="color-white">
+                    <p class="font-36 gotham-bold">WHAT IS "GOOD" OR "BAD" FOOD ?</p>
+                    <p class="font-21 gotham-book">
+                        HOW DOES IT AFFECT OUR HEALTH ?
+                        <span class="gotham-bold">WHAT ARE ITS CONNECTIONS WITH THE ENVIRONMENT ?</span></p>
+                    <p class="font-21 gotham-book">DO WE PLAY A ROLE IN CHOOSING OUR FOOD ?</p>
+                    <p class="font-36 gotham-bold">OR IS IT CHOSEN FOR US ?</p>
+                    <p><a href="screen1.html" id="survey-btn" class="font-21 gotham-book a-disabled">START SURVEY</a></p>
+                </div>
+            </div>
+            <img src="images/food-2.png"/>
+        </section>
+    </main>
+
+    <div id="overlay">
+        <div class="bg-green color-white gotham-book">
+            <button id="button-close" class="button-close color-white bg-green gotham-bold">&times;</button>
+            <p class="font-48">CSE</p>
+            <input id="email" type="text" class="color-white bg-green gotham-book" placeholder="Username"/>
+            <input id="password" type="password" class="color-white bg-green gotham-book" placeholder="Password"/>
+            <button id="button-login" class="button-login">Login</button>
+        </div>
+    </div>
+
+    <script>
+        footerfunc();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+header{
+    div{
+        div{
+            div{
+                padding: 1rem 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                a{
+                    font-family: 'Gotham_Book', sans-serif;
+                    font-size: 1.6rem;
+                    align-self: center;
+                    color: rgb(17, 17, 116);
+                }
+            }
+        }
+    }
+    nav{
+        background-color: #E1E1E1;
+        div{
+            ul{
+                font-size: 0;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                li{
+                    a{
+                        display: block;
+                        padding: 1.8rem 2rem;
+                        font-family: 'Gotham_Book', sans-serif;
+                        font-size: 1.6rem;
+                        color: rgb(66, 66, 66);
+                    }
+                    a:hover{
+                        background-color: green;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #2C2C2C;
+    div{
+        div{
+            padding: 2.5rem 0;
+            font-size: 1.4rem;
+            color: rgb(134, 134, 134);
+
+            display: flex;
+            justify-content: space-between;
+
+            p{
+                span{
+                    font-family: 'Gotham_Thin', sans-serif;
+                }
+                font-family: 'Gotham_Light', sans-serif;
+            }
+
+            ul{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                li{
+                    a{
+                        padding: 0.35rem 0.9rem;
+                        margin-left: 1rem;
+                        border-radius: 50%;
+                        display: inline-block;
+                        background-color: #E1E1E1;
+                        color: #2C2C2C;
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+    }
+}

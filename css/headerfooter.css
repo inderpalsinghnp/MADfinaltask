@@ -1,0 +1,98 @@
+header div div div {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div div div a {
+  font-family: 'Gotham_Book', sans-serif;
+  font-size: 1.6rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #111174;
+}
+
+header nav {
+  background-color: #E1E1E1;
+}
+
+header nav div ul {
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav div ul li a {
+  display: block;
+  padding: 1.8rem 2rem;
+  font-family: 'Gotham_Book', sans-serif;
+  font-size: 1.6rem;
+  color: #424242;
+}
+
+header nav div ul li a:hover {
+  background-color: green;
+  color: white;
+}
+
+footer {
+  background-color: #2C2C2C;
+}
+
+footer div div {
+  padding: 2.5rem 0;
+  font-size: 1.4rem;
+  color: #868686;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer div div p {
+  font-family: 'Gotham_Light', sans-serif;
+}
+
+footer div div p span {
+  font-family: 'Gotham_Thin', sans-serif;
+}
+
+footer div div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer div div ul li a {
+  padding: 0.35rem 0.9rem;
+  margin-left: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #E1E1E1;
+  color: #2C2C2C;
+  font-size: 1.8rem;
+}
+/*# sourceMappingURL=headerfooter.css.map */

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inder Pal Singh</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!--Link Icons-->
+    <link rel="stylesheet" href="css/iconmoon.css">
+    <!--Link Common Css-->
+    <link rel="stylesheet" href="css/base.css">
+    <!--Link Header and Footers-->
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <script src="js/headerfooter.js"></script>
+
+    <!--Link Specific Css-->
+    <link rel="stylesheet" href="css/screen1.css">
+</head>
+
+<body>
+    <script>
+        headerfunc();
+    </script>
+
+
+
+    <main>
+        <div class="bg-overlay">
+            <div class="bg-green"></div>
+            <div class="bg-f1-grey"></div>
+        </div>
+
+        <section class="container">
+            <div>
+                <div class="bg-green">
+                    <div><img src="images/your-diet.png" /></div>
+                    <div><img id="gender-img" src="images/male-active.png" /></div>
+
+                </div>
+                <div id="formspace" class="bg-f1-grey">
+                    <p id="heading" class="gotham-thin font-42 color-lightgrey">Provide Your <span
+                            class="gotham-bold color-blackshade">Details</span></p>
+
+                    <div>
+                        <input type="text" placeholder="NAME" />
+                        <input type="number" placeholder="MOBILE" />
+                        <select>
+                            <option selected>AGE</option>
+                            <option>18</option>
+                        </select>
+                        <div>
+                            <p><span class="gotham-book">GENDER:</span></p>
+                            <p>
+                                <label for="male"><span class="radio-btn"></span>MALE<input type="radio" name="gender"
+                                        value="male" id="male"></label>
+                                <label for="female"><span class="radio-btn"></span>FEMALE<input type="radio"
+                                        name="gender" value="female" id="female"></label>
+                            </p>
+                        </div>
+                        <select>
+                            <option selected>SELECT YOUR COUNTRY</option>
+                            <option>INDIA</option>
+                        </select>
+                        <select>
+                            <option selected>SELECT STATE</option>
+                            <option>DELHI</option>
+                        </select>
+                        <select>
+                            <option selected>CITY</option>
+                            <option>DELHI</option>
+                        </select>
+                        <select>
+                            <option selected>HOUSEHOLD TYPE</option>
+                            <option>OWNED</option>
+                        </select>
+
+                        <a href="screen2.html">CONTINUE</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script>
+        footerfunc();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/screen1.js"></script>
+</body>
+
+</html>

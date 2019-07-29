@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  width: 100%;
+}
+
+@font-face {
+    font-family: 'Gotham_Bold';
+    src: url("../fonts/Gotham-Bold.eot");
+    src: url("../fonts/Gotham-Bold.woff2") format("woff2"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.ttf") format("truetype"), url("../fonts/Gotham-Bold.svg") format("svg");
+  }
+  
+  @font-face {
+    font-family: 'Gotham_Light';
+    src: url("../fonts/Gotham-Light.eot");
+    src: url("../fonts/Gotham-Light.woff2") format("woff2"), url("../fonts/Gotham-Light.woff") format("woff"), url("../fonts/Gotham-Light.ttf") format("truetype"), url("../fonts/Gotham-Light.svg") format("svg");
+  }
+  
+  @font-face {
+    font-family: 'Gotham_Book';
+    src: url("../fonts/gotham-book.eot");
+    src: url("../fonts/gotham-book.woff") format("woff"), url("../fonts/gotham-book.ttf") format("truetype"), url("../fonts/gotham-book.svg") format("svg");
+  }
+  
+  @font-face {
+    font-family: 'Gotham_Thin';
+    src: url("../fonts/hinted-Gotham-Thin.eot");
+    src: url("../fonts/hinted-Gotham-Thin.woff2") format("woff2"), url("../fonts/hinted-Gotham-Thin.woff") format("woff"), url("../fonts/hinted-Gotham-Thin.ttf") format("truetype"), url("../fonts/hinted-Gotham-Thin.svg") format("svg");
+  }
+  
+  .container{
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.font-48{
+  font-size: 4.8rem;
+}
+
+
+.font-42{
+  font-size: 4.2rem;
+}
+
+.font-21{
+  font-size: 2.1rem;
+}
+
+.font-24{
+  font-size: 2.4rem;
+}
+
+.font-36{
+  font-size: 3.6rem;
+}
+
+.font-30{
+  font-size: 3.0rem;
+}
+
+.color-white{
+  color: white;
+}
+
+.color-black{
+  color: black;
+}
+
+.color-blackshade{
+  color: rgb(70,70,70);
+}
+
+.color-lightgrey{
+  color: rgb(145,145,145);
+}
+
+.color-green{
+  color: rgb(118,186,28);
+}
+
+.color-blue{
+  color: #111174;
+}
+
+.bg-green{
+  background-color: rgb(118,186,28);
+}
+
+.bg-f1-grey{
+  background-color: #f1f1f1;
+}
+
+.bg-white{
+  color: white;
+}
+
+.gotham-bold{
+  font-family: 'Gotham_Bold',sans-serif;
+}
+
+.gotham-light{
+  font-family: 'Gotham_Light',sans-serif;
+}
+
+.gotham-book{
+  font-family: 'Gotham_Book',sans-serif;
+}
+
+.gotham-thin{
+  font-family: 'Gotham_Thin',sans-serif;
+}
+
+.bg-overlay{
+  position: absolute;
+  width: 100%;
+  font-size: 0;
+  z-index: -100;
+}
+
+.bg-overlay>div{
+  height: 60rem;
+  display: inline-block;
+}
+.bg-overlay>div:first-child{
+  width: 30%;
+}
+
+.bg-overlay>div:last-child{
+  width: 70%;
+}

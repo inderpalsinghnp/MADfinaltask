@@ -1,0 +1,198 @@
+main section:first-child {
+  padding: 2rem 0 4rem 0;
+}
+
+main section:first-child div div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+main section:first-child div div:first-child div:first-child {
+  -ms-flex-preferred-size: 38%;
+      flex-basis: 38%;
+}
+
+main section:first-child div div:first-child div:first-child img {
+  width: auto;
+  max-width: 100%;
+}
+
+main section:first-child div div:first-child div:last-child {
+  -ms-flex-preferred-size: 59%;
+      flex-basis: 59%;
+  padding-top: 1rem;
+}
+
+main section:first-child div div:last-child {
+  padding-top: 2rem;
+}
+
+main section:first-child div div:last-child p {
+  width: 95%;
+}
+
+main section:last-child {
+  padding: 4rem 0 2rem 0;
+  position: relative;
+}
+
+main section:last-child img {
+  position: absolute;
+  bottom: 2rem;
+  width: auto;
+}
+
+main section:last-child img:first-child {
+  left: 1rem;
+  max-width: 40%;
+}
+
+main section:last-child div div {
+  text-align: center;
+}
+
+main section:last-child div div p {
+  margin-bottom: 0.5rem;
+}
+
+main section:last-child div div p:last-child {
+  margin: 5rem 0 7rem 0;
+}
+
+main section:last-child div div p:last-child a {
+  display: inline-block;
+  padding: 1.5rem 2.5rem;
+  border-radius: 5px;
+  border: 0.5px solid #7350b4;
+}
+
+main section:last-child img:last-child {
+  right: 4rem;
+  max-width: 20%;
+}
+
+#overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#overlay div {
+  width: 50rem;
+  padding: 2rem 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#overlay div p {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+#overlay div input {
+  outline: 0;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid white;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  padding: 0.7rem;
+}
+
+#overlay div ::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+#overlay div :-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+#overlay div ::-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+#overlay div ::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+#overlay div :-ms-input-placeholder {
+  color: white;
+}
+
+#overlay div ::-ms-input-placeholder {
+  color: white;
+}
+
+#overlay div .button-close, #overlay div .button-close:active {
+  border: none;
+  font-size: 3rem;
+  vertical-align: middle;
+  float: right;
+  top: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#overlay div .button-close:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+#overlay div .button-login {
+  color: #111174;
+  background-color: white;
+  border: none;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1.6rem;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 15px;
+  width: 9rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+#overlay div .button-login:hover {
+  color: white;
+  background-color: #111174;
+}
+
+.a-disabled {
+  pointer-events: none;
+  background-color: #969696;
+  color: white;
+}
+
+.a-enabled {
+  cursor: pointer;
+  background-color: #111174;
+  color: white;
+}
+
+.a-enabled:hover {
+  color: #111174;
+  background-color: white;
+}
+/*# sourceMappingURL=index.css.map */

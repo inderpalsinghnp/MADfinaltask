@@ -1,0 +1,101 @@
+main{
+    section{
+        div{
+            display: block;
+            overflow: hidden;
+            div:first-child{
+                float: left;
+                height: 60rem;
+                width:28%; 
+                div{
+                    display: inline-block;
+                    width: 50%;
+                    overflow: hidden;
+                }
+                
+            }
+            div:last-child{
+                float: right;
+                height: 60rem;
+                width: 72%;
+            }
+        }
+    }
+}
+
+#formspace{
+    box-shadow: border-box;
+    padding: 4.5rem;
+
+    #heading{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    div{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        input,select{
+            padding: 1.2rem 1rem;
+            border: 1px solid rgb(180, 180, 180);
+        }
+        
+        input,select,div{
+            flex-basis: 45%;
+            background-color: #f1f1f1;
+            font-family: 'Gotham_Light',sans-serif;
+            font-size: 1.6rem;
+            outline: 0;
+            color: rgb(70,70,70);
+            margin-bottom: 3rem;
+
+            p{
+                width:100%;
+                label{
+                    margin-top: 1rem;
+                    margin-right: 2rem; 
+                    padding-right: 3rem; //chnage it later 
+                    position: relative;  //for later
+
+                    input[type=radio]{
+                        opacity: 1;
+                        margin-bottom: 0;
+                        position: absolute;  //for later
+                        right: 0;   // for later
+
+                        width: 2rem;  //just for right now
+                        line-height: 2rem;
+                        height: 2rem;
+                        background-color: rgb(70,70,70);
+                    }
+                }
+
+                input[type=radio]{
+                    width: 2rem;
+                    line-height: 2rem;
+                    height: 2rem;
+                    background-color: rgb(70,70,70);
+                }
+            }
+        }
+        a{
+            flex-basis: 100%;
+            background-color: #111174;
+            color: white;
+            font-family: 'Gotham_Light',sans-serif;
+            border: 1px solid #111174;
+            font-size: 1.6rem;
+            text-align: center;
+            padding: 1.2rem;
+        }
+
+        a:hover{
+            background-color: white;
+            color: #111174;
+        }
+    }
+}

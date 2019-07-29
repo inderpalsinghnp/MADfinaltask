@@ -78,7 +78,7 @@ main section:last-child img:last-child {
   max-width: 20%;
 }
 
-#overlay {
+#overlay{
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   width: 100%;
@@ -88,10 +88,12 @@ main section:last-child img:last-child {
   display: none;
 }
 
-#overlay div {
+
+#overlaycontent {
   width: 50rem;
   padding: 2rem 4rem;
   position: absolute;
+  display: none;
   top: 50%;
   left: 50%;
   border-radius: 5%;
@@ -99,12 +101,12 @@ main section:last-child img:last-child {
           transform: translate(-50%, -50%);
 }
 
-#overlay div p {
+#overlaycontent p {
   text-align: center;
   margin: 4rem 0;
 }
 
-#overlay div input {
+#overlaycontent input {
   outline: 0;
   width: 100%;
   border: none;
@@ -114,35 +116,35 @@ main section:last-child img:last-child {
   padding: 0.7rem;
 }
 
-#overlay div ::-webkit-input-placeholder {
+#overlaycontent ::-webkit-input-placeholder {
   color: white;
   opacity: 1;
 }
 
-#overlay div :-ms-input-placeholder {
+#overlaycontent :-ms-input-placeholder {
   color: white;
   opacity: 1;
 }
 
-#overlay div ::-ms-input-placeholder {
+#overlaycontent ::-ms-input-placeholder {
   color: white;
   opacity: 1;
 }
 
-#overlay div ::placeholder {
+#overlaycontent ::placeholder {
   color: white;
   opacity: 1;
 }
 
-#overlay div :-ms-input-placeholder {
+#overlaycontent :-ms-input-placeholder {
   color: white;
 }
 
-#overlay div ::-ms-input-placeholder {
+#overlaycontent ::-ms-input-placeholder {
   color: white;
 }
 
-#overlay div .button-close, #overlay div .button-close:active {
+#overlaycontent .button-close, #overlaycontent .button-close:active {
   border: none;
   font-size: 3rem;
   vertical-align: middle;
@@ -154,12 +156,12 @@ main section:last-child img:last-child {
   transition: all 0.3s ease-out;
 }
 
-#overlay div .button-close:hover {
+#overlaycontent .button-close:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
 }
 
-#overlay div .button-login {
+#overlaycontent .button-login {
   color: #111174;
   background-color: white;
   border: none;
@@ -174,7 +176,7 @@ main section:last-child img:last-child {
   cursor: pointer;
 }
 
-#overlay div .button-login:hover {
+#overlaycontent .button-login:hover {
   color: white;
   background-color: #111174;
 }

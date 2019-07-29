@@ -1,6 +1,7 @@
 function loginshow() {
     $("#useranchor").click(function () {
         $("#overlay").css("display", "block");
+        $("#overlaycontent").css("display", "block");
         $("body").css("position", "fixed");
         $("body").css("height", "100%");
         $("body").css("overflow", "hidden");
@@ -9,6 +10,7 @@ function loginshow() {
 
 function hideprocess(){
     $("#overlay").css("display", "none");
+    $("#overlaycontent").css("display", "none");
         $("body").css("position", "static");
         $("body").css("height", "auto");
         $("body").css("overflow", "auto");
@@ -16,6 +18,11 @@ function hideprocess(){
 
 function loginhide() {
     $("#button-close").click(function (e) {
+        e.stopPropagation();
+        hideprocess();
+    });
+
+    $("#overlay").click(function(e){
         e.stopPropagation();
         hideprocess();
     });
